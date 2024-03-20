@@ -14,10 +14,11 @@
     background-color: #ef4444;
 }
 .projects-container {
-    display: flex;
     flex-wrap: wrap;
     justify-content: space-between; /* Distribute items evenly */
     gap: 20px; /* Adjust spacing between items */
+    display: inline-block; /* Use flexbox to make the container and its children inline *
+    
 }
 
 .project-item {
@@ -26,6 +27,7 @@
     background-color: black;
     padding: 20px;
     border-radius: 10px;
+    
 }
 
 @media (max-width: 767px) {
